@@ -1,60 +1,59 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f5f5f5;
-    color: #333;
-}
-
-header {
-    background-color: #2c3e50;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.section {
-    padding: 50px;
-    text-align: center;
-    background-color: white;
-    margin: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.contact-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #e67e22;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 20px;
-    font-weight: bold;
-}
-
-footer {
-    background-color: #2c3e50;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design by Oxana Plekhanova</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Design by Oxana Plekhanova</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">О компании</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#portfolio">Портфолио</a></li>
+                <li><a href="#reviews">Отзывы</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+                <li><a href="#news">Новости</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about" class="section">
+        <h2>О компании</h2>
+        <p>Профессиональный дизайн интерьеров для квартир, домов и коммерческих помещений.</p>
+        <a href="https://wa.me/+77085228272" class="contact-button" target="_blank">Связаться с дизайнером</a>
+    </section>
+    
+    <section id="services" class="section">
+        <h2>Наши услуги</h2>
+        <p>Мы предлагаем 4 пакетных решения с разным объемом услуг и ценой.</p>
+    </section>
+    
+    <section id="portfolio" class="section">
+        <h2>Портфолио</h2>
+        <p>Готовые работы наших проектов.</p>
+    </section>
+    
+    <section id="reviews" class="section">
+        <h2>Отзывы</h2>
+        <p>Что говорят наши клиенты?</p>
+    </section>
+    
+    <section id="contacts" class="section">
+        <h2>Контакты</h2>
+        <p>Свяжитесь с нами: email, телефон, соцсети.</p>
+    </section>
+    
+    <section id="news" class="section">
+        <h2>Новости</h2>
+        <p>Свежие обновления и полезные статьи.</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Design by Oxana Plekhanova</p>
+    </footer>
+</body>
+</html>
